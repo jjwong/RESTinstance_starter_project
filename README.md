@@ -17,7 +17,7 @@ If you've never used it, try this [guide](#https://virtualenv.pypa.io/en/stable/
 
 1. Start a terminal in the root of your project
 2. Activate [virtualenv](#markdown-header-setup-virtualenv)
-3. Run command: `./run_local_tests.robot`
+3. Run command: `./run_local_tests.sh`
 4. Tests should all pass
 5. Inspect the log.html that gets generated in results/log.html
 
