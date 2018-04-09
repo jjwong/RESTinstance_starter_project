@@ -36,3 +36,9 @@ In the project root directory, use the following commands.
     * `python --version`
 
 ---
+
+## Credits
+
+* [Joe Wong](https://github.com/jjwong/)
+* [Anssi Syrjäsalo](https://github.com/asyrjasalo/) - Thank you for creating RESTinstance and 
+answering all of my silly questions :)
