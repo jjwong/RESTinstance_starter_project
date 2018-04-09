@@ -1,17 +1,17 @@
 # RESTinstance Starter Project 
-This is an example project that will demonstrate the use of [RESTinstance](#https://github.com/asyrjasalo/RESTinstance) 
+This is an example project that will demonstrate the use of [RESTinstance](https://github.com/asyrjasalo/RESTinstance) 
 for API testing. This is to help new users quickly get started using the library and providing common examples that 
 they might need to leverage for their own projects. 
 
 This project uses virtualenv to handle all package requirements.
 
-Please visit the [RESTinstance Keyword Library](#https://asyrjasalo.github.io/RESTinstance/) for more keyword usage. We 
+Please visit the [RESTinstance Keyword Library](https://asyrjasalo.github.io/RESTinstance/) for more keyword usage. We 
 will try to provide as many useful examples as possible. Please feel free to submit PRs for areas we do not have 
 covered!
 
 ## Getting Started
 Please make sure virtualenv (python3) is setup before proceeding. 
-If you've never used it, try this [guide](#https://virtualenv.pypa.io/en/stable/installation/).  
+If you've never used it, try this [guide](https://virtualenv.pypa.io/en/stable/installation/).  
 
 ## Instructions
 
