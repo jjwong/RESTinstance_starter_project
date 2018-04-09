@@ -11,9 +11,13 @@ covered!
 
 ## Getting Started
 Please make sure virtualenv (python3) is setup before proceeding. 
-If you've never used it, try this [guide](https://virtualenv.pypa.io/en/stable/installation/).  
 
-## Instructions
+If you've never used it, try this [guide](https://virtualenv.pypa.io/en/stable/installation/).
+
+However, if you do not want to use virtualenv, you just need to make sure Python 3 is installed. 
+From there, you would just run `pip install -r requirements.txt` and `./run_local_tests.sh` to run the tests.  
+
+## Instructions with virtualenv
 
 1. Start a terminal in the root of your project
 2. Activate [virtualenv](#activate-virtualenv)
