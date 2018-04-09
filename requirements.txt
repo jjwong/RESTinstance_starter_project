@@ -1,0 +1,3 @@
+robotframework >= 2.9
+robotframework-faker==4.2.0
+RESTinstance
