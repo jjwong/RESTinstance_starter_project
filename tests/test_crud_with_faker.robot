@@ -3,7 +3,8 @@ Documentation   Example tests with RESTinstance Library
 ...             we will do some basic api testing using the FakerLibrary
 ...
 ...             There is a minor conflict with the Boolean type when using Faker,
-...             but you just need to specify which library to use.
+...             but you just need to specify which library to use. i.e REST.Boolean
+...             is likely what you want to do when doing verifications
 
 Library         REST            url=https://jsonplaceholder.typicode.com
 Library         FakerLibrary    WITH NAME   Faker
@@ -11,6 +12,7 @@ Library         FakerLibrary    WITH NAME   Faker
 *** Test Cases ***
 POST Generated User
     [Documentation]  The example site does not persist changes, but this is how you would generate data using faker.
+    ...              We generate a dictionary and post it to the /users endpoint, we then verify its response code.
     &{generated_user}=    Generate User
     POST                  /users                      ${generated_user}
     Integer               response status             201
