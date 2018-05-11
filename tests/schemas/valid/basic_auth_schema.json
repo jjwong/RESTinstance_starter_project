@@ -1,0 +1,21 @@
+{
+    "body": {
+        "type": "object",
+        "properties": {
+            "token": {
+                "type": "string",
+                "example": "QpwL5tke4Pnpja7X"
+            }
+        },
+        "required": [
+            "token"
+        ]
+    },
+    "status": {
+        "type": "integer",
+        "example": 200,
+        "enum": [
+            200
+        ]
+    }
+}
